@@ -15,7 +15,7 @@ const props = defineProps<{ exhibit: Exhibit }>()
 const router = useRouter()
 
 function goToExhibit() {
-  router.push(`/exhibit/${exhibit.id}`)
+  router.push(`/exhibit/${props.exhibit.id}`)
 }
 </script>
 
