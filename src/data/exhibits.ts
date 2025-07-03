@@ -2,10 +2,10 @@ import type { Exhibit } from '@/types/exhibit'
 
 export const exhibits: Exhibit[] = [
   {
-    id: 'first',
-    title: 'First Exhibit',
-    image: 'https://via.placeholder.com/400x200.png?text=Exhibit+1',
-    description: 'A preview of the first collection.'
+    id: 'photography',
+    title: 'Photography',
+    image: '/photos/cover.jpg',
+    description: 'A collection of photographs'
   },
   {
     id: 'second',
