@@ -10,22 +10,7 @@
 
 <script setup lang="ts">
 import ExhibitCard from '@/components/ExhibitCard.vue'
-import type { Exhibit } from '@/types/exhibit'
-
-const exhibits: Exhibit[] = [
-  {
-    id: 'first',
-    title: 'First Exhibit',
-    image: 'https://via.placeholder.com/400x200.png?text=Exhibit+1',
-    description: 'A preview of the first collection.'
-  },
-  {
-    id: 'second',
-    title: 'Second Exhibit',
-    image: 'https://via.placeholder.com/400x200.png?text=Exhibit+2',
-    description: 'Another example showcase.'
-  }
-]
+import { exhibits } from '@/data/exhibits'
 </script>
 
 <style scoped>
