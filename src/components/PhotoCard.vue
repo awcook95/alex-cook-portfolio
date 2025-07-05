@@ -1,12 +1,12 @@
 <template>
   <div class="photo-card" @click="goToDetail">
-    <img :src="photo.image" :alt="photo.title" />
+    <img :src="photo.src" :alt="photo.title" />
   </div>
 </template>
 
 <script setup lang="ts">
 import { useRouter } from 'vue-router'
-import type { PhotoEntry } from '@/data/photos'
+import type { PhotoEntry } from '@/types/PhotoEntry'
 
 const props = defineProps<{ photo: PhotoEntry }>()
 const router = useRouter()

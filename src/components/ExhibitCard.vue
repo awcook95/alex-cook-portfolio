@@ -1,6 +1,6 @@
 <template>
   <div class="exhibit-card" @click="goToExhibit">
-    <img :src="exhibit.image" alt="Exhibit preview" />
+    <img :src="exhibit.src" alt="Exhibit preview" />
     <h2>{{ exhibit.title }}</h2>
     <p>{{ exhibit.description }}</p>
   </div>
@@ -8,7 +8,7 @@
 
 <script setup lang="ts">
 import { useRouter } from 'vue-router'
-import type { Exhibit } from '@/types/exhibit'
+import type { Exhibit } from '@/types/Exhibit'
 
 const props = defineProps<{ exhibit: Exhibit }>()
 

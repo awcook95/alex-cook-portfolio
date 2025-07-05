@@ -1,7 +1,7 @@
 <template>
   <div v-if="exhibit">
     <h1>{{ exhibit.title }}</h1>
-    <img :src="exhibit.image" :alt="exhibit.title" />
+    <img :src="exhibit.src" :alt="exhibit.title" />
     <p>{{ exhibit.description }}</p>
   </div>
   <div v-else>
@@ -12,7 +12,7 @@
 <script setup lang="ts">
 import { useRoute } from 'vue-router'
 import { getExhibitById } from '@/data/exhibits'
-import type { Exhibit } from '@/types/exhibit'
+import type { Exhibit } from '@/types/Exhibit'
 
 const route = useRoute()
 const id = route.params.id as string

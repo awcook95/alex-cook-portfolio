@@ -1,6 +1,6 @@
 export interface Exhibit {
   id: string
   title: string
-  image: string
+  src: string
   description: string
 }

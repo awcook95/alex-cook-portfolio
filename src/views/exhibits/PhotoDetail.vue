@@ -1,6 +1,6 @@
 <template>
   <div class="photo-detail">
-    <img :src="photo?.image" :alt="photo?.title" />
+    <img :src="photo?.src" :alt="photo?.title" />
     <h1>{{ photo?.title }}</h1>
     <p>{{ photo?.description }}</p>
   </div>

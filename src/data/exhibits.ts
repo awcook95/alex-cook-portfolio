@@ -1,16 +1,16 @@
-import type { Exhibit } from '@/types/exhibit'
+import type { Exhibit } from '@/types/Exhibit'
 
 export const exhibits: Exhibit[] = [
   {
     id: 'photography',
     title: 'Photography',
-    image: '/photos/dekaiyama-main-stage.JPG',
-    description: ''
+    src: '/photos/dekaiyama-main-stage.JPG',
+    description: 'View some of my favorite photos'
   },
   {
     id: 'second',
     title: 'Second Exhibit',
-    image: 'https://via.placeholder.com/400x200.png?text=Exhibit+2',
+    src: 'https://via.placeholder.com/400x200.png?text=Exhibit+2',
     description: 'Another example showcase.'
   }
 ]
