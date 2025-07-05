@@ -4,8 +4,8 @@ export const exhibits: Exhibit[] = [
   {
     id: 'photography',
     title: 'Photography',
-    image: '/photos/cover.jpg',
-    description: 'A collection of photographs'
+    image: '/photos/dekaiyama-main-stage.JPG',
+    description: ''
   },
   {
     id: 'second',

@@ -14,7 +14,7 @@ export const photos: PhotoEntry[] = [
   },
   {
     id: 'fire-festival',
-    image: '/photos/fire-festival.HEIC',
+    image: '/photos/fire-festival.jpg',
     title: 'Fire Festival',
     description: 'A vibrant fire festival celebration. (Placeholder description)'
   },

@@ -17,7 +17,7 @@ import { exhibits } from '@/data/exhibits'
 .grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   padding: 2rem;
 }
 </style>
