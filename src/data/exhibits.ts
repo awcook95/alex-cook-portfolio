@@ -4,7 +4,7 @@ export const exhibits: Exhibit[] = [
   {
     id: 'photography',
     title: 'Photography',
-    src: '/photos/dekaiyama-main-stage.JPG',
+    src: `${import.meta.env.BASE_URL}/photos/dekaiyama-main-stage.JPG`,
     description: 'View some of my favorite photos'
   },
   {
