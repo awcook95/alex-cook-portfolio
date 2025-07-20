@@ -12,6 +12,10 @@ const routes = [
   {
     path: '/exhibit/photography/:photoId',
     component: () => import('@/views/exhibits/PhotoDetail.vue')
+  },
+  {
+    path: '/exhibit/super-snake',
+    component: () => import('@/views/exhibits/SuperSnake.vue')
   }
 ]
 

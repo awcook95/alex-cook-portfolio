@@ -8,10 +8,10 @@ export const exhibits: Exhibit[] = [
     description: 'View some of my favorite photos'
   },
   {
-    id: 'second',
-    title: 'Second Exhibit',
-    src: 'https://via.placeholder.com/400x200.png?text=Exhibit+2',
-    description: 'Another example showcase.'
+    id: 'super-snake',
+    title: 'Super Snake Game',
+    src: `${import.meta.env.BASE_URL}/super_snake/super-snake-game.png`,
+    description: 'A simple JavaScript Snake game with a twist.'
   }
 ]
 
